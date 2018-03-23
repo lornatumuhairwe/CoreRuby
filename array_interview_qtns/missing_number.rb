@@ -18,3 +18,6 @@ def missing_number2(array) # first 10 numbers
 end
 sample = [1, 2, 3, 4, 5, 6, 8, 9, 10]
 puts(missing_number2(sample))
+
+
+# you can use set properties to get the repeated number.
