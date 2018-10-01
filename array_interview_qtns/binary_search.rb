@@ -3,7 +3,6 @@ def binary_search(array, number)
   min = 0
 
   while max >= min
-
     guess = ((max + min)/2).floor
 
     if array[guess] == number
@@ -14,9 +13,9 @@ def binary_search(array, number)
       min = guess += 1
     end
 
-    return -1
   end
 
+  return -1
 end
 
 puts binary_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 11)
