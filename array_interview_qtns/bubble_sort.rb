@@ -4,7 +4,7 @@
 # break if counter == 0
 def bubblesort(arr)
   counter = 1
-  while true
+  while true #loop do can also work here
     counter = 0
     (arr.length - 1).times do |i|
       if arr[i] > arr[i + 1]
