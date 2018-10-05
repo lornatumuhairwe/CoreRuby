@@ -1,9 +1,9 @@
 # you are given an array of numbers from 1 to 100 that has one missing number
 # Find the missing number
 
-def missing_number(array)
-  expected_sum = 101 * 50 # (n(n + 1))/2
-  array_sum = sum(array)
+def missing_number(array, n)
+  expected_sum = (n*(n + 1))/2
+  array_sum = array.reduce(:+)
   expected_sum - array_sum
 end
 
